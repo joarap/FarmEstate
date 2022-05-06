@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:gravity="center_horizontal"
+                android:text="ΑΠΑΡΑΙΤΗΤΑ ΔΙΚΑΙΟΛΟΓΗΤΙΚΑ"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:gravity="center_horizontal"
+                android:text="Για να πραγματοποιηθεί η διαδικασία της αγοράς/πώλησης ενός αγροτεμαχίου, χρειάζονται ορισμένα δικαιολογητικά. Κάποια δικαιολογητικά βρίσκονται ήδη στην κατοχή του πωλητή και άλλα παρέχονται από συγκεκριμένες υπηρεσίες. Ακολουθεί αναλυτική λίστα των δικαιολογητικών και για τις δύο πλευρές."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------------------------------------------------------------------------------"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:gravity="center_horizontal"
+                android:text="ΠΩΛΗΤΗΣ"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:text="ΑΠΟ ΔΟΥ: 1.ΦΟΡΟΛΟΓΙΚΗ ΕΝΗΜΕΡΟΤΗΤΑ, 2.ΠΙΣΤΟΠΟΙΗΤΙΚΟ ΕΝΦΙΑ ΤΩΝ ΤΕΛΕΥΤΑΙΩΝ 5 ΕΤΩΝ (ΓΙΑ ΑΠΟΔΟΧΗ ΚΛΗΡΟΝΟΜΙΑΣ, ΧΑΡΙΣΤΙΚΗ ΑΙΤΙΑ, ΠΩΛΗΣΗ), 3.ΠΙΣΤΟΠΟΙΗΤΙΚΟ ΠΕΡΙ ΜΗ ΟΦΕΙΛΗΣ ΦΟΡΟΥ ΚΛΗΡΟΝΟΜΙΑΣ Ή ΓΟΝΙΚΗΣ ΠΑΡΟΧΗΣ Ή ΔΩΡΕΑΣ"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:text="ΑΠΟ ΑΣΦΑΛΙΣΤΙΚΟ ΤΑΜΕΙΟ: ΑΣΦΑΛΙΣΤΙΚΗ ΕΝΗΜΕΡΟΤΗΤΑ"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:text="ΑΠΟ ΟΡΓΑΝΙΣΜΟ 'Η ΠΕΡΙΦΕΡΕΙΑ: ΒΕΒΑΙΩΣΗ ΠΕΡΙ ΜΗ ΟΦΕΙΛΗΣ ΑΡΔΕΥΤΙΚΩΝ ΤΕΛΩΝ"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:text="ΑΠΟ ΔΗΜΟ: 1.ΒΕΒΑΙΩΣΗ ΠΕΡΙ ΜΗ ΟΦΕΙΛΗΣ ΑΡΔΕΥΤΙΚΩΝ ΤΕΛΩΝ, 2.ΤΑΠ (ΜΕ Ε9 ΚΑΙ ΑΠΟΔΕΙΞΗ ΠΛΗΡΩΜΗΣ ΡΕΥΜΑΤΟΣ ΑΠΟ ΔΕΗ)-->[ΣΕ ΠΕΡΙΠΤΩΣΗ ΠΟΥ ΥΠΑΡΧΕΙ ΚΤΙΣΜΑ ΜΕΣΑ ΣΤΟ ΑΓΡΟΚΤΗΜΑ]"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:text="ΑΠΟ ΜΗΧΑΝΙΚΟ: ΤΟΠΟΓΡΑΦΙΚΟ ΔΙΑΓΡΑΜΜΑ ΚΑΙ ΒΕΒΑΙΩΣΗ ΜΗΧΑΝΙΚΟΥ ΠΕΡΙ ΜΗ ΥΠΑΡΞΗΣ ΑΥΘΑΙΡΕΤΟΥ-->[ΣΕ ΠΕΡΙΠΤΩΣΗ ΠΟΥ ΥΠΑΡΧΕΙ ΚΤΙΣΜΑ ΜΕΣΑ ΣΤΟ ΑΓΡΟΚΤΗΜΑ]"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:text="ΑΠΟ ΔΙΕΥΘΥΝΣΗ ΓΕΩΡΓΙΑΣ: ΒΕΒΑΙΩΣΗ"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:text="ΑΠΟ ΔΕΗ: ΑΔΕΙΑ Ή ΒΕΒΑΙΩΣΗ ΓΙΑ ΧΡΟΝΟ 1ΗΣ ΗΛΕΚΤΡΟΔΟΤΗΣΗΣ-->[ΣΕ ΠΕΡΙΠΤΩΣΗ ΠΟΥ ΥΠΑΡΧΕΙ ΚΤΙΣΜΑ ΜΕ ΠΑΡΟΧΗ ΡΕΥΜΑΤΟΣ ΜΕΣΑ ΣΤΟ ΑΓΡΟΚΤΗΜΑ]"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:text="ΥΠΟΛΟΙΠΑ ΔΙΚΑΙΟΛΟΓΗΤΙΚΑ ΠΩΛΗΤΗ: 1.ΣΥΜΒΟΛΑΙΟ (ΙΔΙΟΚΤΗΣΙΑ ΑΓΡΟΚΤΗΜΑΤΟΣ), 2.ΤΑΥΤΟΤΗΤΑ, 3.ΑΦΜ, 4.ΚΤΗΜΑΤΟΛΟΓΙΚΟ ΦΥΛΛΟ ΚΑΙ ΔΙΑΓΡΑΜΜΑ(ΠΑΡΕΧΕΤΑΙ ΚΑΙ ΑΠΟ ΤΟ ΚΤΗΜΑΤΟΛΟΓΙΟ)"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:text="------------------------------------------------------------------------------------------------------------"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:gravity="center_horizontal"
+                android:text="ΑΓΟΡΑΣΤΗΣ"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_narrow"
+                android:text="1.ΤΑΥΤΟΤΗΤΑ, 2.ΑΦΜ, 3.ΑΠΑΛΛΑΓΗ ΩΣ ΑΓΡΟΤΗΣ(ΑΝ ΕΙΝΑΙ ΚΑΤ΄ΕΠΑΓΓΕΛΜΑ ΑΓΡΟΤΗΣ"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
